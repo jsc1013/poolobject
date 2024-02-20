@@ -20,12 +20,15 @@ import ubu.gii.dass.c01.ReusablePool;
  *
  */
 public class ReusablePoolTest {
+	
+	private ReusablePool pool;
 
 	/**
 	 * @throws java.lang.Exception
 	 */
 	@Before
 	public void setUp() throws Exception {
+		pool = ReusablePool.getInstance();
 	}
 
 	/**
