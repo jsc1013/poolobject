@@ -44,6 +44,11 @@ public class ReusablePoolTest {
 	 */
 	@Test
 	public void testGetInstance() {
+		pool = ReusablePool.getInstance();
+		// Comprobación de que el objeto no es nulo
+		assertNotNull(pool);
+		// Comprobación de si el objeto es instancia de ReusablePool
+		assertTrue(pool instanceof ReusablePool);
 	}
 
 	/**
