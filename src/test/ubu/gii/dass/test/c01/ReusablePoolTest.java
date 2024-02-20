@@ -10,7 +10,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * @author alumno
+ * @author Víctor Manuel Vaquero Mesa (mailto:vvm1002@alu.ubu.es)
+ * @author Juan José Santos Cambra (mailto:jsc1013@alu.ubu.es)
  *
  */
 public class ReusablePoolTest {
