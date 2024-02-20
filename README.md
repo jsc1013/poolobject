@@ -1,8 +1,8 @@
+[![Build Status](https://app.travis-ci.com/VictorVaqueroUBU/poolobject.svg?branch=master)](https://app.travis-ci.com/VictorVaqueroUBU/poolobject)
+[![codecov](https://codecov.io/gh/VictorVaqueroUBU/poolobject/graph/badge.svg?token=bX6QGJAoLS)](https://codecov.io/gh/VictorVaqueroUBU/poolobject)
+
 poolobject
 ==========
-
-[![Java CI](https://github.com/clopezno/poolobject/actions/workflows/ant.yml/badge.svg)](https://github.com/clopezno/poolobject/actions/workflows/ant.yml) 
-[![codecov](https://codecov.io/gh/clopezno/poolobject/graph/badge.svg?token=NvQ17D5kct)](https://codecov.io/gh/clopezno/poolobject)
 
 Java code example of creational design pattern pool object
 
