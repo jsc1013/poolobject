@@ -1,5 +1,5 @@
-[![Build Status](https://app.travis-ci.com/VictorVaqueroUBU/poolobject.svg?branch=master)](https://app.travis-ci.com/VictorVaqueroUBU/poolobject)
-[![codecov](https://codecov.io/gh/VictorVaqueroUBU/poolobject/graph/badge.svg?token=bX6QGJAoLS)](https://codecov.io/gh/VictorVaqueroUBU/poolobject)
+[![Java CI](https://github.com/VictorVaqueroUBU/poolobject/actions/workflows/ci_jdk1.8_build_test.yml/badge.svg)](https://github.com/VictorVaqueroUBU/poolobject/actions/workflows/ci_jdk1.8_build_test.yml)
+[![codecov](https://codecov.io/gh/clv1003/poolobject/branch/master/graph/badge.svg)](https://app.codecov.io/gh/VictorVaqueroUBU/poolobject/tree/master)
 
 poolobject
 ==========
