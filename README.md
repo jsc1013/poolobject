@@ -56,11 +56,11 @@ A continuación se tratará de dar respuesta a las siguientes preguntas:
 Sí, se ha realizado el trabajo en equipo intercalando commits y en sesiones de trabajo conjuntas mediante el programa de Microsoft Teams haciendo programación por parejas.
 El KPI para visualiza el trabajo en equipo se muestra en la siguiente imagen:
 
-![Captura trabajo en equipo 1](img/captura1.png)
+![Captura trabajo en equipo 1](img/Captura1.png)
 
 Figura 1: Resumen del trabajo realizado
 
-![Captura trabajo en equipo 2](img/captura2.png)
+![Captura trabajo en equipo 2](img/Captura2.png)
 
 Figura 2: Número de commits realizados a lo largo de la vida del proyecto
 
