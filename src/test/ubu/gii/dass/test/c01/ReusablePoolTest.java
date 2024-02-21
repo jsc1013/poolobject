@@ -76,6 +76,25 @@ public class ReusablePoolTest {
 	 */
 	@Test
 	public void testReleaseReusable() {
+		try {
+			Reusable initialReusable = pool.acquireReusable();
+			assertNotNull(initialReusable);
+			assertTrue(initialReusable instanceof Reusable);
+
+			do {
+				pool.releaseReusable(initialReusable);
+				Reusable newReusable = pool.acquireReusable();
+				assertTrue(initialReusable.util().equals(newReusable.util()));
+				assertNotNull(initialReusable);
+				assertTrue(initialReusable instanceof Reusable);	
+				pool.releaseReusable(newReusable);	
+				assertNotNull(newReusable);
+				assertTrue(newReusable instanceof Reusable);
+			} while (initialReusable != null);
+
+		} catch (NotFreeInstanceException | DuplicatedInstanceException e) {
+			System.err.println(e.getMessage());
+		}
 	}
 
 }
