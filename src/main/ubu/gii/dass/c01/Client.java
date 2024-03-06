@@ -7,10 +7,11 @@ public class Client{
 	
 	
 	public static void main(String arg[]) throws NotFreeInstanceException, DuplicatedInstanceException{
+	  System.out.println("Testing sonarcloud");
 	  ReusablePool pool;
 	  Reusable r1,r2,r3;
 	  Logger logger = Logger.getLogger("c01");
-	 
+	  
 	  
 	  pool = ReusablePool.getInstance();
 	  r1 = pool.acquireReusable();
