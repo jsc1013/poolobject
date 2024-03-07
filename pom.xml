@@ -30,5 +30,6 @@
 <properties>
   <sonar.organization>jsc1013</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.projectKey>jsc1013_poolobject</sonar.projectKey>
 </properties>
 </project>
