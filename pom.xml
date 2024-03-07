@@ -24,21 +24,7 @@
           <target>1.8</target>
         </configuration>
       </plugin>
-    </plugins>
-  </build>
-  
-<properties>
-  <sonar.organization>jsc1013</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-   <sonar.projectKey>jsc1013_poolobject</sonar.projectKey>
-</properties>
-
-<profiles>
-<profile>
-  <id>coverage</id>
-  <build>
-   <plugins>
-    <plugin>
+      <plugin>
       <groupId>org.jacoco</groupId>
      <artifactId>jacoco-maven-plugin</artifactId>
       <version>0.8.7</version>
@@ -62,8 +48,12 @@
         </execution>
       </executions>
     </plugin>
-   </plugins>
+    </plugins>
   </build>
-</profile>
-</profiles>
+  
+<properties>
+  <sonar.organization>jsc1013</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+   <sonar.projectKey>jsc1013_poolobject</sonar.projectKey>
+</properties>
 </project>
