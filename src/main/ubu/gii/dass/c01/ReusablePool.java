@@ -24,6 +24,7 @@ public final class ReusablePool{
 	 * 
 	 */
 	public static ReusablePool getInstance(){
+		System.out.println("Testing Sonar");
 		if (instance == null)
 			instance = new ReusablePool(2);
 		return instance; 
